@@ -2,11 +2,12 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background: linear-gradient(to right,rgb(202, 19, 19),rgb(27, 27, 203));
 }
 form{
     background-color: aliceblue;
-    width: 500px;
-    height: 450px;
+    width: 450px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,18 +17,29 @@ form{
 }
 
 label{
-    font-size: 30px;
+    font-size: 20px;
     font-family: open sans;
     margin-bottom: 10px;
     text-align: left;
+    color:rgb(8, 173, 243) ;
 }
 input {
 width:60%;
 padding: 10px;
 border-radius: 10px;
 outline: none;
-margin-bottom: 10px;
+border: none;
+margin-bottom: 20px;
 }
 input:hover{
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 5px rgb(116, 116, 116);
+
+
+}
+#btn{
+    background: linear-gradient(to right,rgb(225, 32, 32),rgb(27, 27, 203)) ;
+    color: white;
+    width: 60%;
+    font-size:20px ;
+    box-shadow: 2px 2px 5px rgb(116, 116, 116);
 }

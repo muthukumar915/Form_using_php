@@ -17,6 +17,7 @@ follow this steps:
 6. give the name for each table and save it.
 7. finally open browser and give localhost/filename(index1.html)
 
+note: give your database name and table name in code
 ---------------------------------------
 //Happy Coding
 

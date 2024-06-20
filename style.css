@@ -6,14 +6,28 @@ body{
 form{
     background-color: aliceblue;
     width: 500px;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
     margin: 50px auto;
 }
 
 label{
     font-size: 30px;
+    font-family: open sans;
+    margin-bottom: 10px;
+    text-align: left;
+}
+input {
+width:60%;
+padding: 10px;
+border-radius: 10px;
+outline: none;
+margin-bottom: 10px;
+}
+input:hover{
+    box-shadow: 2px 2px 5px black;
 }
